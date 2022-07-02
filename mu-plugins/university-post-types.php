@@ -8,6 +8,7 @@ This file is used to add new Post Types to the site. The "mu-plugins" should onl
         register_post_type('event', array(
             'public' => true,
             'show_in_rest' => true,
+            'has_archive' => true,
             'labels' => array(
                 'name' => 'Events',
                 'add_new_item' => 'Add New Event',
