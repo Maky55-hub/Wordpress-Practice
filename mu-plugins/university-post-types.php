@@ -6,6 +6,7 @@ This file is used to add new Post Types to the site. The "mu-plugins" should onl
     // WordPress comes with two post types, 'Pages' and 'Post'. This method is used to setup new post types
     function university_post_types() {
         register_post_type('event', array(
+            'rewrite' => array('slug' => 'events'),
             'public' => true,
             'show_in_rest' => true,
             'has_archive' => true,
