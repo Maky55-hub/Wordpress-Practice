@@ -23,5 +23,4 @@
     // Tells wordpress when to call the above functions
     add_action('wp_enqueue_scripts', 'university_files');
     add_action('after_setup_theme', 'university_features');
-    
 ?>
