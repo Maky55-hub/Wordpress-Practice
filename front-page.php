@@ -28,7 +28,7 @@
                     array(
                       'key' => 'event_date', // The field on the post type to filter on
                       'compare' => '>=', // The operator used for filtering
-                      'value' => ´$today, // The value to which the field will be compared
+                      'value' => $today, // The value to which the field will be compared
                       'type' => 'numeric' // The type of the field
                     )
                   )
