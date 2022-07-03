@@ -44,7 +44,7 @@
     </div>
     <?php
 	}
-	echo paginate_links();
+	echo paginate_links(); // Since we use the global query provided by WP, ew don't need to provide extra options.
 	?>
 </div>
 
